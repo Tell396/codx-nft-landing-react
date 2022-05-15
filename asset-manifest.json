@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codx-nft-landing-react/static/css/main.c51f7532.css",
+    "main.js": "/codx-nft-landing-react/static/js/main.4b6c4b3d.js",
+    "static/media/Mia_Potter.png": "/codx-nft-landing-react/static/media/Mia_Potter.5120fe4f06427cff83ef.png",
+    "static/media/Lee.png": "/codx-nft-landing-react/static/media/Lee.7173cd61129b65f8f102.png",
+    "index.html": "/codx-nft-landing-react/index.html",
+    "main.c51f7532.css.map": "/codx-nft-landing-react/static/css/main.c51f7532.css.map",
+    "main.4b6c4b3d.js.map": "/codx-nft-landing-react/static/js/main.4b6c4b3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c51f7532.css",
+    "static/js/main.4b6c4b3d.js"
+  ]
+}
