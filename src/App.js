@@ -100,7 +100,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="flex wrap h-screen mr-[16vw] ml-[16vw]">
+      <section className="flex flex-wrap sm:flex-nowrap h-screen mr-[16vw] ml-[16vw]">
         {/* About NFT */}
         <div className="mt-52 flex-auto w-64 wrap">
           <h4 className="text-[#82CBAC]">EXTRAORDINARY NFTs</h4>
@@ -121,7 +121,7 @@ function App() {
 
       <section className="mr-[16vw] ml-[16vw]">
         <div className="flex ">
-          {/* <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" /> */}
+          <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" />
           <img className="" src={require("./assets/scroll-images/IMAGE-2.png")} alt="" />
           <img className="" src={require("./assets/scroll-images/IMAGE-3.png")} alt="" />
           <img className="" src={require("./assets/scroll-images/IMAGE-4.png")} alt="" />
@@ -136,7 +136,7 @@ function App() {
 
       <section className="mr-[16vw] ml-[16vw] h-screen">
         <div className="text-center">
-          <h1 className="text-6xl mt-62">Hey there, we are</h1>
+          <h1 className="text-6xl mt-36">Hey there, we are</h1>
           <p className="mt-5">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam
             <br />
             arcu, porta et magna at
@@ -145,18 +145,33 @@ function App() {
 
         <div className="mt-28">
           <div>
-            <button className="m-3 pt-3 pr-16 pl-16 bg-gray-700 rounded-full text-white">Jack</button>
-            <button className="m-3 pt-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-1">Suni</button>
-            <button className="m-3 pt-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-1">Colin</button>
+            <button className="m-3 pt-3 pb-3 pr-16 pl-16 bg-gray-700 rounded-full text-white">Jack</button>
+            <button className="m-3 pt-3 pb-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-2">Suni</button>
+            <button className="m-3 pt-3 pb-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-2">Colin</button>
           </div>
 
-          <div className="flex">
+          <div className="flex flex-wrap sm:flex-nowrap">
             <img className="" src={require("./assets/Digital-Artist.png")} alt="" />
 
-            <div>
+            <div className="ml-10">
               <h4 className="text-red-400 flex-wrap">Digitl Artist</h4>
               <h1 className="text-3xl mt-2">Pellentesque blandit<br />in quam rhoncus</h1>
-              <p className="mt-4">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+              <p className="mt-4 font-normal text-xl">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mr-[16vw] ml-[16vw] h-screen">
+        <div className="">
+          <div className="flex flex-wrap sm:flex-nowrap">
+            <img className="" src={require("./assets/our-work.png")} alt="" />
+
+            <div className="ml-10 mt-10">
+              <h4 className="flex-wrap text-4xl">OUR WORK</h4>
+              <h1 className="text-5xl mt-2">“Um… what’s going<br />on here?”</h1>
+              <p className="mt-4 font-normal text-xl">Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
+              <button className="pt-3 pb-3 pr-10 pl-10 bg-gray-800 text-white mt-16">About Codx</button>
             </div>
           </div>
         </div>
