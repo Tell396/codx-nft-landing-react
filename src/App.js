@@ -2,8 +2,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="mr-[16vw] ml-[16vw] font-outfit">
-      <nav className="bg-white border-gray-200 px-2 mt-6 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+    <div className="font-outfit">
+      <nav className="bg-white border-gray-200 px-2 mt-6 sm:px-4 py-2.5 rounded dark:bg-gray-800 mr-[16vw] ml-[16vw]">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="#" className="flex items-center">
             <svg className="mr-3 h-6 sm:h-9" width="94" height="31" viewBox="0 0 94 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +100,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="flex wrap">
+      <section className="flex wrap h-screen mr-[16vw] ml-[16vw]">
         {/* About NFT */}
         <div className="mt-52 flex-auto w-64 wrap">
           <h4 className="text-[#82CBAC]">EXTRAORDINARY NFTs</h4>
@@ -116,6 +116,49 @@ function App() {
         <div className="flex-auto w-32 mt-24">
           <img className="absolute" src={require("./assets/Lee.png")} alt="Lee Stone" />
           <img className="absolute lg:ml-44 lg:mt-28" src={require("./assets/Mia_Potter.png")} alt="" />
+        </div>
+      </section>
+
+      <section className="mr-[16vw] ml-[16vw]">
+        <div className="flex ">
+          {/* <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" /> */}
+          <img className="" src={require("./assets/scroll-images/IMAGE-2.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-3.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-4.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-5.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-6.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-7.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-8.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-9.png")} alt="" />
+          <img className="" src={require("./assets/scroll-images/IMAGE-10.png")} alt="" />
+        </div>
+      </section>
+
+      <section className="mr-[16vw] ml-[16vw] h-screen">
+        <div className="text-center">
+          <h1 className="text-6xl mt-62">Hey there, we are</h1>
+          <p className="mt-5">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam
+            <br />
+            arcu, porta et magna at
+          </p>
+        </div>
+
+        <div className="mt-28">
+          <div>
+            <button className="m-3 pt-3 pr-16 pl-16 bg-gray-700 rounded-full text-white">Jack</button>
+            <button className="m-3 pt-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-1">Suni</button>
+            <button className="m-3 pt-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-1">Colin</button>
+          </div>
+
+          <div className="flex">
+            <img className="" src={require("./assets/Digital-Artist.png")} alt="" />
+
+            <div>
+              <h4 className="text-red-400 flex-wrap">Digitl Artist</h4>
+              <h1 className="text-3xl mt-2">Pellentesque blandit<br />in quam rhoncus</h1>
+              <p className="mt-4">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
