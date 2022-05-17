@@ -100,7 +100,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="flex flex-wrap sm:flex-nowrap h-screen mr-[16vw] ml-[16vw]">
+      <section className="flex flex-wrap sm:flex-nowrap h-full mr-[16vw] ml-[16vw] mb-96">
         {/* About NFT */}
         <div className="mt-52 flex-auto w-64 wrap">
           <h4 className="text-[#82CBAC]">EXTRAORDINARY NFTs</h4>
@@ -113,15 +113,15 @@ function App() {
         </div>
 
         {/* Block with peoples */}
-        <div className="flex-auto w-32 mt-24">
+        <div className="lg:block flex-auto hidden w-32 mt-24">
           <img className="absolute" src={require("./assets/Lee.png")} alt="Lee Stone" />
           <img className="absolute lg:ml-44 lg:mt-28" src={require("./assets/Mia_Potter.png")} alt="" />
         </div>
       </section>
 
       <section className="mr-[16vw] ml-[16vw]">
-        <div className="flex ">
-          <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" />
+        <div className="flex flex-wrap md:flex-wrap sm:flex-nowrap">
+          {/* <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" /> */}
           <img className="" src={require("./assets/scroll-images/IMAGE-2.png")} alt="" />
           <img className="" src={require("./assets/scroll-images/IMAGE-3.png")} alt="" />
           <img className="" src={require("./assets/scroll-images/IMAGE-4.png")} alt="" />
@@ -134,7 +134,7 @@ function App() {
         </div>
       </section>
 
-      <section className="mr-[16vw] ml-[16vw] h-screen">
+      <section className="mt-22 mb-20 mr-[16vw] ml-[16vw]">
         <div className="text-center">
           <h1 className="text-6xl mt-36">Hey there, we are</h1>
           <p className="mt-5">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam
@@ -150,7 +150,7 @@ function App() {
             <button className="m-3 pt-3 pb-3 pr-16 pl-16 bg-white rounded-full text-black border-black border-2">Colin</button>
           </div>
 
-          <div className="flex flex-wrap sm:flex-nowrap">
+          <div className="flex flex-wrap sm:flex-nowrap mt-6">
             <img className="" src={require("./assets/Digital-Artist.png")} alt="" />
 
             <div className="ml-10">
@@ -162,7 +162,7 @@ function App() {
         </div>
       </section>
 
-      <section className="mr-[16vw] ml-[16vw] h-screen">
+      <section className="mb-32 mr-[16vw] ml-[16vw]">
         <div className="">
           <div className="flex flex-wrap sm:flex-nowrap">
             <img className="" src={require("./assets/our-work.png")} alt="" />
@@ -175,6 +175,43 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="flex flex-wrap sm:flex-nowrap flex-auto mb-52 mr-[16vw] ml-[16vw]">
+        <div className="mr-24 sm:mr-0">
+          <div className="mt-6 ">
+            <span className="pt-2 pb-2 pr-8 pl-8 bg-green-300 rounded-full text-white">01</span>
+            <div className="mt-6">
+              <h1 className="text-3xl font-bold">Motion Graphic</h1>
+              <p className="text-lg">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+            </div>
+          </div>
+          <div className="mt-6">
+            <span className="pt-2 pb-2 pr-8 pl-8 bg-pink-300 rounded-full text-white">02</span>
+            <div className="mt-6">
+              <h1 className="text-3xl font-bold">Digital Illustration</h1>
+              <p className="text-lg">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+            </div>
+          </div>
+          <div className="mt-6">
+            <span className="pt-2 pb-2 pr-8 pl-8 bg-yellow-300 rounded-full text-white">03</span>
+            <div className="mt-6">
+              <h1 className="text-3xl font-bold">Motion Graphic</h1>
+              <p className="text-lg">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+            </div>
+          </div>
+        </div>
+
+        <img className="w-[30vw] h-[31vw]" src={require('./assets/Motion.png')} alt="" />
+      </section>
+
+      <section className="flex flex-auto bg-green-400 h-96 flex-wrap">
+        <div className="flex-1 w-64 mt-16 ml-16">
+          <h1 className="text-6xl">Join Us and Discover our most precious NFT</h1>
+          <p className="text-xl">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+        </div>
+
+        <img className="" src={require('./assets/Artists.png')} alt="" />
       </section>
     </div>
   );
