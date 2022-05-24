@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/codx-nft-landing-react/static/css/main.c51f7532.css",
-    "main.js": "/codx-nft-landing-react/static/js/main.4b6c4b3d.js",
+    "main.css": "/codx-nft-landing-react/static/css/main.619a30b7.css",
+    "main.js": "/codx-nft-landing-react/static/js/main.d03add12.js",
+    "static/media/our-work.png": "/codx-nft-landing-react/static/media/our-work.2ae5dbdd5770b1b88c46.png",
+    "static/media/image-3.png": "/codx-nft-landing-react/static/media/image-3.28a7e80f9ecd651f809e.png",
+    "static/media/image.png": "/codx-nft-landing-react/static/media/image.32ab7fe2a0e2065fdc4e.png",
+    "static/media/Motion.png": "/codx-nft-landing-react/static/media/Motion.cf0dbf4acae860f95ce0.png",
     "static/media/Mia_Potter.png": "/codx-nft-landing-react/static/media/Mia_Potter.5120fe4f06427cff83ef.png",
+    "static/media/image-2.png": "/codx-nft-landing-react/static/media/image-2.57c31383e9ea7fbb6d6d.png",
     "static/media/Lee.png": "/codx-nft-landing-react/static/media/Lee.7173cd61129b65f8f102.png",
+    "static/media/image-5.png": "/codx-nft-landing-react/static/media/image-5.4c1c5f4fb60029e2a29d.png",
+    "static/media/image-6.png": "/codx-nft-landing-react/static/media/image-6.80e2c290507dd4b4a6f3.png",
+    "static/media/image-4.png": "/codx-nft-landing-react/static/media/image-4.f6c0ba23519b70c48559.png",
+    "static/media/image-1.png": "/codx-nft-landing-react/static/media/image-1.ba0903164d8f51698d6b.png",
+    "static/media/Digital-Artist.png": "/codx-nft-landing-react/static/media/Digital-Artist.ff98e52b0275430c6bf4.png",
     "index.html": "/codx-nft-landing-react/index.html",
-    "main.c51f7532.css.map": "/codx-nft-landing-react/static/css/main.c51f7532.css.map",
-    "main.4b6c4b3d.js.map": "/codx-nft-landing-react/static/js/main.4b6c4b3d.js.map"
+    "main.619a30b7.css.map": "/codx-nft-landing-react/static/css/main.619a30b7.css.map",
+    "main.d03add12.js.map": "/codx-nft-landing-react/static/js/main.d03add12.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51f7532.css",
-    "static/js/main.4b6c4b3d.js"
+    "static/css/main.619a30b7.css",
+    "static/js/main.d03add12.js"
   ]
 }
