@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div className="font-outfit">
-      <nav className="bg-white border-gray-200 px-2 mt-6 sm:px-4 py-2.5 rounded dark:bg-gray-800 mr-[16vw] ml-[16vw]">
+      <nav className="bg-white border-gray-200 px-2 mt-6 sm:px-4 py-2.5 rounded dark:bg-gray-800 mr-[18vw] ml-[18vw]">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="#" className="flex items-center">
             <svg
@@ -146,7 +146,7 @@ function App() {
         </div>
       </nav>
 
-      <section className="flex flex-wrap sm:flex-nowrap h-full mr-[16vw] ml-[16vw] mb-96">
+      <section className="flex flex-wrap sm:flex-nowrap h-full mr-[18vw] ml-[18vw] mb-96">
         {/* About NFT */}
         <div className="mt-52 flex-auto w-64 wrap">
           <h4 className="text-[#82CBAC]">EXTRAORDINARY NFTs</h4>
@@ -174,9 +174,8 @@ function App() {
         </div>
       </section>
 
-      <section className="mr-[16vw] ml-[16vw]">
+      {/* <section className="mr-[18vw] ml-[18vw]">
         <div className="flex flex-wrap md:flex-wrap sm:flex-nowrap">
-          {/* <img className="" src={require("./assets/scroll-images/IMAGE-1.png")} alt="" /> */}
           <img className="" src={require('./assets/scroll-images/IMAGE-2.png')} alt="" />
           <img className="" src={require('./assets/scroll-images/IMAGE-3.png')} alt="" />
           <img className="" src={require('./assets/scroll-images/IMAGE-4.png')} alt="" />
@@ -187,9 +186,9 @@ function App() {
           <img className="" src={require('./assets/scroll-images/IMAGE-9.png')} alt="" />
           <img className="" src={require('./assets/scroll-images/IMAGE-10.png')} alt="" />
         </div>
-      </section>
+      </section> */}
 
-      <section className="mt-22 mb-20 mr-[16vw] ml-[16vw]">
+      <section className="mt-22 mb-20 mr-[18vw] ml-[18vw]">
         <div className="text-center">
           <h1 className="text-6xl mt-36">Hey there, we are</h1>
           <p className="mt-5">
@@ -234,7 +233,7 @@ function App() {
         </div>
       </section>
 
-      <section className="mb-32 mr-[16vw] ml-[16vw]">
+      <section className="mb-32 mr-[18vw] ml-[18vw]">
         <div className="">
           <div className="flex flex-wrap sm:flex-nowrap">
             <img className="" src={require('./assets/our-work.png')} alt="" />
@@ -259,8 +258,8 @@ function App() {
         </div>
       </section>
 
-      <section className="flex flex-wrap sm:flex-nowrap flex-auto mb-52 mr-[16vw] ml-[16vw]">
-        <div className="mr-24 sm:mr-0">
+      <section className="flex flex-wrap sm:flex-nowrap flex-auto mb-52 mr-[18vw] ml-[18vw]">
+        <div className="">
           <div className="mt-6 ">
             <span className="pt-2 pb-2 pr-8 pl-8 bg-green-300 rounded-full text-white">01</span>
             <div className="mt-6">
@@ -296,7 +295,7 @@ function App() {
         <img className="w-[30vw] h-[31vw]" src={require('./assets/Motion.png')} alt="" />
       </section>
 
-      <section className="flex flex-auto bg-green-400">
+      <section className="flex flex-auto bg-emerald-300 text-white">
         <div className="flex-1 w-64 mt-16 ml-16 mb-16">
           <h1 className="text-6xl sm:text-5xl mb-3">Join Us and Discover our most precious NFT</h1>
           <p className="text-xl">
@@ -308,57 +307,19 @@ function App() {
         {/* <img className="h-96" src={require('./assets/Artists.png')} alt="" /> */}
       </section>
 
-      <section className="mr-[16vw] ml-[16vw]">
-        <h1 className="m-8 text-6xl sm:text-4xl text-center">Browse by Collections</h1>
-
-        <div className="flex flex-wrap flex-auto text-left">
-          <div className="mt-12 flex-1">
-            <img className="" src={require('./assets/collection-images/image.png')} />
-            <h4 className="text-2xl m-6">Collectibles</h4>
-          </div>
-          <div className="mt-12 flex-1">
-            <img className="" src={require('./assets/collection-images/image-2.png')} />
-            <h4 className="text-2xl m-6">Art</h4>
-          </div>
-          <div className="mt-12 flex-1">
-            <img className="" src={require('./assets/collection-images/image-3.png')} />
-            <h4 className="text-2xl m-6">Photography</h4>
-          </div>
-        </div>
-
-        <div className="flex justify-center items-center">
-          <button className="bg-gray-700 text-white font-bold pt-2 pb-2 pr-10 pl-10 mt-16">
-            View all
-          </button>
-        </div>
-      </section>
-
-      <section className="mr-[16vw] ml-[16vw] mt-16">
-        <h1 className="m-8 text-6xl sm:text-4xl text-center">Browse by Collections</h1>
+      <section className="mr-[18vw] ml-[18vw]">
+        <h1 className="m-8 text-6xl sm:text-5xl text-center">Browse by Collections</h1>
 
         <div className="flex flex-wrap text-left">
-        <div className="mt-12 m-6 flex-initial w-128">
+          <div className="mt-12 m-4 flex-initial w-100">
             <img className="" src={require('./assets/collection-images/image.png')} />
             <h4 className="text-2xl m-6">Collectibles</h4>
           </div>
-          <div className="mt-12 m-6 flex-initial w-128">
+          <div className="mt-12 m-4 flex-initial w-100">
             <img className="" src={require('./assets/collection-images/image-2.png')} />
             <h4 className="text-2xl m-6">Art</h4>
           </div>
-          <div className="mt-12 m-6 flex-initial w-128">
-            <img className="" src={require('./assets/collection-images/image-3.png')} />
-            <h4 className="text-2xl m-6">Photography</h4>
-          </div>  
-
-          <div className="mt-12 m-6 flex-initial w-128">
-            <img className="" src={require('./assets/collection-images/image.png')} />
-            <h4 className="text-2xl m-6">Collectibles</h4>
-          </div>
-          <div className="mt-12 m-6 flex-initial w-128">
-            <img className="" src={require('./assets/collection-images/image-2.png')} />
-            <h4 className="text-2xl m-6">Art</h4>
-          </div>
-          <div className="mt-12 m-6 flex-initial w-128">
+          <div className="mt-12 m-4 flex-initial w-100">
             <img className="" src={require('./assets/collection-images/image-3.png')} />
             <h4 className="text-2xl m-6">Photography</h4>
           </div>
@@ -370,6 +331,60 @@ function App() {
           </button>
         </div>
       </section>
+
+      <section className="mr-[18vw] ml-[18vw] mt-16">
+        <h1 className="m-8 text-6xl sm:text-5xl text-center">Top NFT</h1>
+
+        <div className="flex flex-wrap text-left">
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-1.png')} />
+            <div className="flex m-6">
+              <h4 className="text-xl mr-2">White Bear</h4>
+              <p className="font-bold">#54385</p>
+            </div>
+          </div>
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-2.png')} />
+            <div className="flex m-6">
+              <h4 className="text-xl mr-2">Happy Luca</h4>
+              <p className="font-bold">#54395</p>
+            </div>
+          </div>
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-3.png')} />
+            <div className="flex m-6">
+              <h4 className="text-xl mr-2">Dodo</h4>
+              <p className="font-bold">#54376</p>
+            </div>
+          </div>
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-4.png')} />
+            <h4 className="text-xl m-6">Collectibles</h4>
+          </div>
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-5.png')} />
+            <h4 className="text-xl m-6">Art</h4>
+          </div>
+          <div className="mt-12 m-6 flex-initial w-128">
+            <img className="" src={require('./assets/top-nft/image-6.png')} />
+            <h4 className="text-xl m-6">Photography</h4>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <button className="bg-gray-700 text-white font-bold pt-2 pb-2 pr-10 pl-10 mt-16">
+            View all
+          </button>
+        </div>
+      </section>
+
+      <footer className="h-20 bg-gray-800 mt-20">
+        <div className="flex items-center justify-center">
+          <h1 className="text-white mt-6 text-emerald-200 text-lg">
+            Made with ~ by <a className="text-blue-400 underline" href="https://github.com/tell396">Berezhnev</a>
+          </h1>
+        </div>
+      </footer>
     </div>
   );
 }
